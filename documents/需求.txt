@@ -1,19 +1,21 @@
-即时通讯工具AnyChat设计需求
+AnyChat design requirements for instant messaging tools
 
 
-1.设计意图
-目前大多数通讯工具需要网络及注册账号，才能实现用户间通讯。本设计旨在实现一个主要用于局域网之间进行通讯的即时通讯工具。实现即使没有互联网连接的情况下，用户之间也可以通过本地局域网实现信息交流。
+1 design intent
+At present most of the communication tools need to network and registered account, in order to achieve communication between users. The purpose of this design is to realize a communication tool which is mainly used for communication between local area network. Even if there is no Internet connection, the user can communicate through the local area network.
 
 
-2.功能需求
+2 functional requirements
 
-2.1局域网互联
-实现局域网之间两台或更多主机之间的连接。以其中一台机器作为服务器端，接收来自客户端的连接请求，实时监测客户端的连接状态。客户端则向服务端发送连接请求实现连接。
+2.1 local area network interconnection
+The connection between two or more hosts in the lan. In which a machine as a server, to receive the connection request from the client, real-time monitoring of the client connection state. The client sends a connection request to the server.
 
-2.2主机间通讯
-在实现连接的前提下，两台主机之间可以使用软件工具进行即时信息交流。若有更多的客户端连节到主机，则所有主机间可实现群通讯。
 
-2.3文件传输*
-两台主机实现互相连接的情况下，用户可通过工具实现文件的实时传输功能。
+2.2 host communication
+In the premise of the realization of the connection between the two hosts can use the software tool for instant information exchange. If there are more clients connected to the host, then all the hosts can achieve group communication.
+
+2.3 file transfer *
+In the case that the two hosts are connected to each other, the user can realize the real-time transmission function of the file through the tool
+
 
 
